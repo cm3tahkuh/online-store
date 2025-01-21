@@ -19,7 +19,7 @@ namespace OnlineStoreApi.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("/api/get")]
 
         public async Task<List<Content>> GetAllAsync()
         {

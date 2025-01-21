@@ -51,8 +51,7 @@
               "RelativeToolTip": "OnlineStoreApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-19T17:25:23.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T17:25:23.042Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "OnlineStoreApi\\Controllers\\ContentController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T16:56:48.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T16:56:48.213Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "OnlineStoreApi\\Context\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T16:44:33.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T16:44:33.7Z"
             }
           ]
         }

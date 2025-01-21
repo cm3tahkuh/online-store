@@ -1,10 +1,14 @@
-@use '@styles/variables';
+@use "@styles/variables";
 
 .header {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  padding: "10px";
+  transition: "transform 0.3s ease";
+  background-color: variables.$primary-color;
   &__title {
     font-weight: 500;
     font-style: normal;

@@ -9,13 +9,12 @@ const Cards = () => {
   useEffect(() => {
     const fetchCards = async () => {
       try {
-        const response = await fetch("http://localhost:5074/api/Content");
+        const response = await fetch("http://localhost:5074/api/get");
         if (!response.ok) {
           throw new Error("Что то пошло не так.");
         }
         const data = await response.json();
         setCards(data);
-        
       } catch (err) {
         setError(err.message);
       } finally {
@@ -26,18 +25,21 @@ const Cards = () => {
     fetchCards();
   }, []);
 
-  if (loading) return <h1>ЗАГРУЗКА...</h1>;
+  if (loading) return <h1 className="loading">ЗАГРУЗКА...</h1>;
 
-  if (error) return <h1>ОШИБКА! - {error}</h1>;
-
+  if (error) return <h1 className="error">ОШИБКА! - {error}</h1>;
 
   return (
     <section className="cards">
       <div className="container">
         <div className="cards__row" id="album-container">
-          {cards.map((card, index) => (
-            <div key={index} className="cards__column">
-              <img className="cards__image" src={card.imageUrl} alt={card.title} />
+          {cards.map((card) => (
+            <div key={card.id} className="cards__column">
+              <img
+                className="cards__image"
+                src={card.imageUrl}
+                alt={card.title}
+              />
               <div className="cards__text-block">
                 <h2 className="cards__title">{card.title}</h2>
                 <p className="cards__description">{card.description}</p>
