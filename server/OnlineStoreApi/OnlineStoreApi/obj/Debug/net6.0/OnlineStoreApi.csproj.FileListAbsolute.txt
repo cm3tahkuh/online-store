@@ -35,3 +35,4 @@ C:\Users\user\Downloads\online-store\server\OnlineStoreApi\OnlineStoreApi\obj\De
 C:\Users\user\Downloads\online-store\server\OnlineStoreApi\OnlineStoreApi\obj\Debug\net6.0\OnlineStoreApi.pdb
 C:\Users\user\Downloads\online-store\server\OnlineStoreApi\OnlineStoreApi\obj\Debug\net6.0\OnlineStoreApi.genruntimeconfig.cache
 C:\Users\user\Downloads\online-store\server\OnlineStoreApi\OnlineStoreApi\obj\Debug\net6.0\ref\OnlineStoreApi.dll
+C:\Users\user\Downloads\online-store\server\OnlineStoreApi\OnlineStoreApi\obj\Debug\net6.0\OnlineStoreApi.sourcelink.json

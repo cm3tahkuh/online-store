@@ -26,7 +26,7 @@ namespace OnlineStoreApi.Controllers
             return await _context.Contents.ToListAsync();
         }
 
-        [HttpPost("/add")]
+        [HttpPost("/api/add")]
 
         public async Task<Content> AddContentAsync(Content content)
         {

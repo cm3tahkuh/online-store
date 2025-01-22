@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`header ${scrollingUp ? "header--visible" : "header--hidden"}`}
+      className={`header`}
       style={{
         position: "sticky",
         top: 0,
